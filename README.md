@@ -24,6 +24,8 @@ ARIA **states** are attributes that define the current condition of an element. 
 
 - Derste yapılan örneği kişiselleştirerek reponun linkini ekleyiniz.
 
+  :dart: some changes have been made, more to come (https://github.com/poghosyantatevik/classwork.git)
+
 - JavaScript'te var/let/const keywordleri arasındaki farkları açıklayınız.
 
    :dart: VAR was the original variable declaration in JS, but because JS was created within a short period of time, there were some drawbacks in it, here ES6, released in 2015 came quite handy, as at that time LET and CONST were introduced which are block level elements, unlike VAR which scope is global. One of the main problems of being global, is that the declared values can overwrite a declaration, avoiding such problems required extra attention, and because of that LET and CONST came into play. 
