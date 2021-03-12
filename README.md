@@ -13,6 +13,13 @@ To avoid this it is better to avoid carousels, or follow some simple steps, such
 ARIA **properties** define additional semantics not supported in standard HTML. An example is <button aria-haspopup="true">. This property extends the standard button to cause a screen reader to announce that the button, if activated, will trigger a pop-up.
    
 ARIA **states** are attributes that define the current condition of an element. They generally change based on user interaction or some dynamic variable. An example is <input aria-invalid="true">. This property will cause a screen reader to read this input as currently being invalid (meaning it needs to be corrected), but this state value could easily be changed to false dynamically based on user input.
+
+e.g. 
+
+**Before:** For more info, <a href="/about">click here</a>
+
+**After:** For more info, <a href="/about" **aria-label="about us">** click here</a>
+   
    
  **Links I used:**
  
